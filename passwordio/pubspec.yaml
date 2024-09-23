@@ -1,0 +1,31 @@
+name: passwordmanager
+description: "Flutter project to store and search for credentials"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/imageplayer.jpg"  # Path to your app icon
+  adaptive_icon_background: "#FFFFFF"     # (Optional) background color for Android adaptive icons
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/imagefamily.jpg
+    - assets/imageplayer.jpg
